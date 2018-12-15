@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Color Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- NOTE: I am deferring this: -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1><span>The Color Game</span></h1>
+        <div id="color_display">rgb(<span class="red">0</span>, <span class="green">0</span>, <span class="blue">0</span>);</div>
+        <nav>
+          <ul>
+            <li><span id="new" class="nav-btn">New Colors</span></li>
+            <li><span id="msg"></span></li>
+            <li id="difficulty">
+              <span id="easy" class="nav-btn">Easy</span>
+              <span id="hard" class="nav-btn selected">Hard</span>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div id="game">
+        <div id="grid">
+          <div id="color_1" class="color"></div>
+          <div id="color_2" class="color"></div>
+          <div id="color_3" class="color"></div>
+          <div id="color_4" class="color"></div>
+          <div id="color_5" class="color"></div>
+          <div id="color_6" class="color"></div>
+        </div>
+      </div>
+      <footer><a href="/">[&sol;]</a> * 2018</footer>
+    </main>
+  </body>
+</html>
